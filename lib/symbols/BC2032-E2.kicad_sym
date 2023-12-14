@@ -1,0 +1,65 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BC2032-E2" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "BT" (id 0) (at -5.08397 5.08397 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BC2032-E2" (id 1) (at -5.08204 -5.08204 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BC2032-E2:MPD_BC2032-E2" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "D" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendation" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "MPD" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BC2032-E2_0_0"
+      (polyline
+        (pts (xy 0.635 2.54) (xy 0.635 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 0.0) (xy 0.635 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 1.27) (xy -0.635 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 0.0) (xy -0.635 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -0.635 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.635 0.0) (xy 2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 -0.635) (xy 2.54 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.905 -1.27) (xy 3.175 -1.27)) (stroke (width 0.254))
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "N"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
